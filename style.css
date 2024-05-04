@@ -32,3 +32,11 @@ section {
     font-weight: 700;
     border-radius: 5px;
 }
+
+.top_corner {
+    background-image: url(Corner.jpg);
+    background-repeat: no-repeat;
+    image-orientation: flip;
+    image-rendering: crisp-edges;
+
+}
