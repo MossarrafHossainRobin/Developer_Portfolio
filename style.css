@@ -11,7 +11,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -32,4 +32,26 @@ section {
     color: white;
     font-weight: 700;
     border-radius: 5px;
+}
+
+.developer {
+    width: 40%;
+    padding-left: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 60px gray;
+    border-radius: 10px;
+
+}
+
+#web {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#web2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, rgba(255, 166, 0, 0.5));
+    border-image-slice: 1;
 }
